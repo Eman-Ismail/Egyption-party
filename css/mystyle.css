@@ -1,0 +1,135 @@
+.home {
+    height: 600px;
+    background-image: url(../image/events-heavenly-header.jpg);
+    background-size: 100% 100%;
+    position: relative;
+}
+
+.layer {
+    background-color: rgba(214, 46, 51, 0.6);
+    height: 100%;
+    color: #fff;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+h2 {
+    margin-top: 200px
+}
+
+h2,
+p {
+    text-align: center;
+}
+
+.caption span {
+    font-size: 30px;
+    cursor: pointer;
+    margin-left: 6px;
+}
+
+.sidebar {
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 111;
+    height: 100%;
+    background-color: gray;
+    padding-top: 60px;
+    display: none;
+}
+
+.sidebar a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 20px 8px 20px 32px;
+    font-size: 25px;
+}
+
+.sidebar a:hover {
+    color: rgba(214, 46, 51, 0.4);
+}
+
+.sidebar .closebtn {
+    cursor: pointer;
+    color: #fff;
+    margin-left: 150px;
+    transition: 0.5s;
+    font-size: 36px;
+}
+
+.sidebar .closebtn:hover {
+    color: rgba(214, 46, 51, 0.4);
+}
+
+
+/*======================singer section style====================*/
+
+.singer {
+    width: 50%;
+    margin: auto;
+    background-color: #e68184;
+    cursor: pointer;
+}
+
+.singer .singer-disc {
+    background-color: rgb(204, 204, 204);
+    display: none;
+}
+
+
+/*========count section style============*/
+
+.count {
+    background-image: url(../image/invitation-2508607__340.jpg);
+    background-size: 100% 100%;
+    height: 250px;
+    background-repeat: no-repeat;
+}
+
+.countlayer {
+    background-color: rgba(214, 46, 51, 0.6);
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.join {
+    width: 20%;
+    height: 100px;
+    border: 2px solid #fff;
+    margin: 20px;
+    color: #fff;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.media .fab {
+    border: 1px solid #999999;
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+}
+
+.media a {
+    color: #999999;
+}
+
+.media a:hover .fab {
+    background-color: #af2424;
+    color: #fff;
+    border: none;
+}
+
+.test {
+    width: 100px;
+    height: 100px;
+    background-color: #09c;
+}
